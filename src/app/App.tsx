@@ -1,8 +1,8 @@
 import React from 'react';
-import { Text } from 'react-native';
+import ShowCaseScreen from './showcase/ShowcaseScreen';
 
 const App = () => {
-  return <Text>Deneme</Text>;
+  return <ShowCaseScreen />;
 };
 
 export default App;
