@@ -1,14 +1,15 @@
 import React from 'react';
-import { ScrollView } from 'react-native';
+import { View } from 'react-native';
 import Heading from '../../ui/atoms/typography/Heading';
 import Hero from '../../ui/atoms/typography/Hero';
 import Label from '../../ui/atoms/typography/Label';
 import Paragraph from '../../ui/atoms/typography/ParaGraph';
 import SubHeading from '../../ui/atoms/typography/SubHeading';
+import Uppercase from '../../ui/atoms/typography/Uppercase';
 
 const TypographyScreen = () => {
   return (
-    <ScrollView>
+    <View>
       <Hero type='xl'>Hero 1</Hero>
       <Hero type='lg'>Hero 2</Hero>
       <Hero type='md'>Hero 3</Hero>
@@ -35,7 +36,11 @@ const TypographyScreen = () => {
       <Label type='6'>Label 6</Label>
       <Label type='7'>Label 7</Label>
       <Label type='8'>Label 8</Label>
-    </ScrollView>
+      <Uppercase type='xl'>Uppercase 1</Uppercase>
+      <Uppercase type='lg'>Uppercase 2</Uppercase>
+      <Uppercase type='md'>Uppercase 3</Uppercase>
+      <Uppercase type='sm'>Uppercase 4</Uppercase>
+    </View>
   );
 };
 

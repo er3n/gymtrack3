@@ -1,11 +1,13 @@
 import React from 'react';
-import { SafeAreaView, StyleSheet, ViewStyle } from 'react-native';
+import { SafeAreaView, ScrollView, StyleSheet, ViewStyle } from 'react-native';
 import TypographyScreen from './TypographyScreen';
 
 const ShowCaseScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <TypographyScreen />
+      <ScrollView>
+        <TypographyScreen />
+      </ScrollView>
     </SafeAreaView>
   );
 };
