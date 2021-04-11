@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     backgroundColor: 'rgba(255, 255, 255, 0.03)',
     borderRadius: 8,
-    height: 60,
+    height: 50,
     justifyContent: 'center',
   } as ViewStyle,
   innerBox: {
