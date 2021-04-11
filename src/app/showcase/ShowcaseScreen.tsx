@@ -1,20 +1,20 @@
 import React from 'react';
-import { SafeAreaView, ScrollView, StyleSheet, ViewStyle } from 'react-native';
-import TypographyScreen from './TypographyScreen';
+import { StyleSheet, View, ViewStyle } from 'react-native';
+import Colors from '../../ui/atoms/Colors';
+import FormScreen from './screens/FormScreen';
 
 const ShowCaseScreen = () => {
   return (
-    <SafeAreaView style={styles.container}>
-      <ScrollView>
-        <TypographyScreen />
-      </ScrollView>
-    </SafeAreaView>
+    <View style={styles.container}>
+      <FormScreen />
+    </View>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#121217',
+    backgroundColor: Colors.dark01,
+    height: '100%',
   } as ViewStyle,
 });
 

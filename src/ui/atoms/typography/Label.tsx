@@ -15,37 +15,38 @@ const styles = StyleSheet.create({
     fontWeight: '500',
   } as TextStyle,
   1: {
-    fontSize: 28,
-    lineHeight: 28,
-  } as TextStyle,
-  2: {
-    fontSize: 25,
-    lineHeight: 20,
-  } as TextStyle,
-  3: {
-    fontSize: 22,
-    lineHeight: 22,
-  } as TextStyle,
-  4: {
     fontSize: 20,
     lineHeight: 20,
   } as TextStyle,
-  5: {
-    fontSize: 18,
-    lineHeight: 18,
-  } as TextStyle,
-  6: {
+  2: {
     fontSize: 16,
     lineHeight: 16,
   } as TextStyle,
+  3: {
+    fontSize: 16,
+    lineHeight: 16,
+  } as TextStyle,
+  4: {
+    fontSize: 15,
+    lineHeight: 15,
+    opacity: 0.2,
+  } as TextStyle,
+  5: {
+    fontSize: 13,
+    lineHeight: 13,
+  } as TextStyle,
+  6: {
+    fontSize: 12,
+    lineHeight: 12,
+  } as TextStyle,
   7: {
-    fontSize: 22,
-    lineHeight: 22,
+    fontSize: 16,
+    lineHeight: 16,
     letterSpacing: 2.44,
   } as TextStyle,
   8: {
-    fontSize: 18,
-    lineHeight: 18,
+    fontSize: 14,
+    lineHeight: 14,
     letterSpacing: 2,
   } as TextStyle,
 });
