@@ -12,6 +12,8 @@ target 'gymtrack' do
     :hermes_enabled => false
   )
 
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'gymtrackTests' do
     inherit! :complete
     # Pods for testing

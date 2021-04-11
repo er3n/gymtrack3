@@ -9,6 +9,7 @@ const Colors = {
   dark03: '#3B3B4D',
   dark04: '#626271',
   dark05: '#898994',
+  white01: '#FFFFFF',
 };
 
 export default Colors;
