@@ -5,6 +5,7 @@ import TextField from '../../../ui/atoms/form/TextField';
 import Box from '../../../ui/atoms/grid/Box';
 import Heading from '../../../ui/atoms/typography/Heading';
 import SubHeading from '../../../ui/atoms/typography/SubHeading';
+import Wallpaper from '../../../ui/atoms/wallpaper/Wallpaper';
 
 const validateEmail = (email: string) => {
   const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -23,6 +24,7 @@ const FormScreen = () => {
       setTextFieldError('Invalid email entered');
     }
   };
+  const bgBlur = require('./bg-blur.png');
 
   const onPressButton = () => {
     console.log('clicked button');
@@ -30,6 +32,7 @@ const FormScreen = () => {
 
   return (
     <SafeAreaView>
+      <Wallpaper backgroundImage={bgBlur} />
       <ScrollView style={styles.container}>
         <View style={styles.formElements}>
           <Box>
@@ -50,9 +53,7 @@ const FormScreen = () => {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 20,
-    marginLeft: 15,
-    marginRight: 15,
+    height: '100%',
   },
   formElements: {
     justifyContent: 'space-evenly',
